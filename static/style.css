@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5F5F5;
+    padding: 20px;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #4F4F4F;
+}
+
+.post {
+    background-color: #FFF;
+    border: 1px solid #DDD;
+    padding: 45px;
+    margin-bottom: 80px;
+    border-radius: 8px;
+    position: relative;
+    max-height: 300px; /* Adjust the value as needed */
+    overflow: auto;
+}
+
+.post h2 {
+    margin-top: 0;
+}
+
+.post p {
+    margin: 10px 0;
+}
+
+.link-box {
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: #3498db;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.link-box:hover {
+    background-color: #2980b9;
+}
+
+.delete-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.delete-button:hover {
+    background-color: #eee;
+}
+
+.update-button {
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.update-button:hover {
+    background-color: #eee;
+}
+
+.like-button {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+    margin-right: 5px;
+}
+
+.like-button:hover {
+    background-color: #eee;
+}
+.like-section {
+    display: flex;
+    align-items: center;
+}
+.like-text {
+    margin-left: 5px;
+}
+
